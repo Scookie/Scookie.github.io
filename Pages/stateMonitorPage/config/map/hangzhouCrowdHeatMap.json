@@ -1,0 +1,14 @@
+{
+  "id":"s_cread_heatmap",
+  "title" : {
+    "text": "全城热力图"
+  },
+  "series":[
+    {
+    	"name": "22设备",
+    	"type": "heatmap"
+    }
+  ],
+  "mapType":"HZ",
+  "mapUrl":"../../AppSrc/echarts-master/map/json/city/hangzhou.json"
+}

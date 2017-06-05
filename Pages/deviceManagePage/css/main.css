@@ -1,0 +1,254 @@
+
+html,body {
+  height:100%;
+  width:100%;
+  font-family: "微软雅黑";
+  font-size: 20px;
+}
+
+body{
+  background:url("../img/bodyBg.png") no-repeat;
+  background-size: cover;
+}
+
+*{
+  padding:0;
+  margin:0;
+}
+
+/*滚动用到的样式marquee*/
+.str_move{
+  position: absolute;
+}
+
+.full{
+  position:absolute;
+  height:100%;
+  width:100%;
+}
+
+.wapper{
+  overflow: hidden;
+  font-family: "微软雅黑";
+}
+
+.head-wapper{
+  width:100%;
+  height:10%;
+  display:table;
+}
+ul,li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.content{
+  position:absolute;
+  top:10%;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.left-wapper,
+.right-wapper{
+  position:absolute;
+  width:24%;
+  height:100%;
+}
+
+.left-wapper{
+  left:1%;
+}
+
+.right-wapper{
+  right:1%;
+}
+
+.center-wapper{
+  position:absolute;
+  left:26%;
+  right:26%;
+  height:100%;
+}
+
+.height-rate-daynum{
+  height:7%;
+}
+.height-rate-ratenum{
+  height:7%;
+  position: relative;
+  top: -15px;
+}
+
+.height-rate-vehicle{
+  height:54%;
+}
+.height-rate-proportion{
+  height: 55%;
+}
+.height-rate-area{
+  height: 40%;
+}
+.height-rate-ship{
+  height:27.8% !important;
+}
+
+.height-rate-taxi{
+  height:48%;
+}
+.rate-taxi-proportion{
+  border:1px solid #293955;
+  height: 45%;
+}
+.rate-taxi-map{
+  margin-top: 2%;
+  border:1px solid #293955;
+  height: 48%;
+}
+.height-rate-bus{
+  height:47%;
+}
+
+.height-rate-online{
+  height:43%;
+  margin-top: -15px !important;
+}
+
+.height-rate-error{
+  height:43.8%;
+}
+
+.height-rate-error-map{
+  float:left;
+  height:100%;
+  width:45%;
+}
+
+.height-rate-error-list{
+  margin: 3% 0 1% 0;
+  padding: 0;
+  position: absolute;
+  bottom:3%;
+  right: 0;
+  height: 36%;
+  width: 57%;
+  overflow: hidden;
+}
+
+.height-rate-error-list li{
+  color:#fff;
+  list-style-type: none
+  padding:5px 0;
+  width: 100%;
+}
+
+.height-rate-error-list li span{
+  display:inline-block;
+  position: relative;
+  bottom: 12px;
+  padding: 0 10px;
+  font-size:22px;
+}
+
+.height-rate-title{
+  height:5%;
+  font-size:25px;
+  display:table;
+}
+
+.rate-title-text{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.rate-bus-situation{
+  height: 40%;
+}
+.rate-bus-line{
+  height: 54%;
+}
+.light-border{
+  margin:0 0 12px 0;
+  border:1px solid #293955;
+}
+
+/*head样式*/
+.sider-line{
+  width:35.2%;
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.center-title{
+  width:25%;
+  display:table-cell;
+  vertical-align:middle;
+  font-size:36px;
+  font-family: "微软雅黑";
+  text-align: right;
+  padding-right:1%;
+  color:#fff;
+}
+
+.center-logo{
+    height: 60%;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.clearFloat:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.sider-line-l-inner,
+.sider-line-r-inner{
+  position: relative;
+  height:1px;
+  width:88%;
+  display:inline-block;
+}
+
+.sider-line-l-inner{
+  background: -webkit-linear-gradient(right,rgba(255,255,255,1),rgba(255,255,255,0));
+  background: -ms-linear-gradient(right,rgba(255,255,255,1),rgba(255,255,255,0));
+  filter:progid:DXImageTransform.Microsoft.Gradient(
+          StartColorStr=white,EndColorStr=white,GradientType=1
+  );
+  margin-left:10%;
+}
+
+.sider-line-r-inner{
+  background: -webkit-linear-gradient(left,rgba(255,255,255,1),rgba(255,255,255,0));
+  background: -ms-linear-gradient(left,rgba(255,255,255,1),rgba(255,255,255,0));
+  filter:progid:DXImageTransform.Microsoft.Gradient(
+          StartColorStr=white,EndColorStr=white,GradientType=1
+  );
+  margin-right:10%;
+}
+.height-average-monitor{
+  float: left;
+  width: 45%;
+  height: 100%;
+}
+.height-abnormal-davice{
+  float: left;
+  width: 45%;
+  height: 100%;
+}
+
+.rate-error-state{
+  float: right;
+  top: 2px;
+  margin-right: 20px;
+}
+.scroller-span{
+  font-size: 40px;
+  font-weight: bold;
+}

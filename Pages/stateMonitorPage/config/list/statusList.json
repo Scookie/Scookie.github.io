@@ -1,0 +1,6 @@
+[
+  {"name":"拥堵指数","value":"0","unitName":"严重拥堵"},
+  {"name":"总体流量","value":"0","unitName":"辆"},
+  {"name":"拥堵里程比例","value":"0","unitName":"%"},
+  {"name":"平均行驶速度","value":"0","unitName":"km/h"}
+]

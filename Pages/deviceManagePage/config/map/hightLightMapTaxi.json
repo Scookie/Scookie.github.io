@@ -1,0 +1,31 @@
+{
+  "id":"s_taxi_scatter",
+  "title" : {
+    "text": "出租车空间分布"
+  },
+  "series":[
+    {
+    	"name": "出租车",
+    	"type": "scatter",
+    	 "symbol": "circle",
+    	 "symbolSize": "other"
+    }
+  ],
+  "mapType":"HZ2",
+  "mapUrl":"../../AppSrc/echarts-master/map/json/city/hangzhou.json",
+  "errordata":[
+                {"name": "20辆","lonlat":[120.153069,30.337178],"value":20,"state":"异常"},
+                {"name": "15辆","lonlat":[120.227007,30.218912],"value":15,"state":"异常"},
+                {"name": "21辆","lonlat":[120.21631,30.270328],"value":21,"state":"异常"},
+                {"name": "10辆","lonlat":[120.174316,30.252735],"value":10,"state":"维修"},
+                {"name": "5辆","lonlat":[120.130648,30.242876],"value":5,"state":"异常"},
+                {"name": "20辆","lonlat":[120.189864,30.284176],"value":20,"state":"异常"},
+                {"name": "16辆","lonlat":[120.269002,30.184453],"value":16,"state":"维修"},
+                {"name": "29辆","lonlat":[120.030037,30.402612],"value":29,"state":"异常"},
+                {"name": "12辆","lonlat":[119.615149,30.23726],"value":12,"state":"异常"},
+                {"name": "30辆","lonlat":[119.722745,29.790937],"value":30,"state":"维修"},
+                {"name": "20辆","lonlat":[119.984767,30.052373],"value":20,"state":"异常"},
+                {"name": "7辆","lonlat":[119.17424,29.699323],"value":7,"state":"维修"},
+                {"name": "9辆","lonlat":[119.314555,29.477209],"value":9,"state":"维修"}
+            ]
+}

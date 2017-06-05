@@ -1,0 +1,21 @@
+{
+  "title":"杭州市拥堵指数走势图",
+  "id":"s_chart_trend",
+  "xAxis":{
+    "data":[]
+    },
+  "series":[
+    {
+      "name":"当天拥堵指数",
+      "type":"line",
+      "show":"line",
+      "data":[]
+    },
+    {
+      "name":"上周同期拥堵指数",
+      "type":"line",
+      "show":"area",
+      "data":[]
+    }
+  ]
+}

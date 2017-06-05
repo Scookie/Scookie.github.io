@@ -1,0 +1,18 @@
+{
+  "id":"s_a_area_index",
+  "title" : {
+    "text": "杭州市行政区域拥堵指数"
+  },
+  "xAxis":{
+  },
+  "series":[
+    {
+      "name":"当前",
+      "type":"bar"
+    },
+    {
+      "name":"上周同期",
+      "type":"bar"
+    }
+  ]
+}

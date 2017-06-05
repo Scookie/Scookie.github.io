@@ -1,0 +1,7 @@
+{"title":"公交车运营情况",
+  "content":[
+    {"itemName":"运营车辆数","quantity":"0","unit":"辆","id":"test01"},
+    {"itemName":"运营线路数","quantity":"0","unit":"路","id":"test02"},
+    {"itemName":"运载人数","quantity":"0","unit":"人","id":"test03"}
+  ]
+}

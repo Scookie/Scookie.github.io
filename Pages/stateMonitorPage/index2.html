@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<!-- <meta http-equiv="refresh" content="30;url=http://localhost/screen/screen/Pages/deviceManagePage/"> -->
+    <title>智慧交通运行状态监测系统</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link href="css/Normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script src="../../AppSrc/js/Jquery/jquery.min.js"></script>
+	<script src="../../AppSrc/util/screen_util.js"></script>
+	<script src="../../AppSrc/echarts-master/dist/echarts.js"></script>
+	<script src="../../AppSrc/echarts-master/map/js/china.js"></script>
+	<script src="../../AppSrc/echarts-master/theme/dark.js"></script>
+	<script type="text/javascript" src="dist/bundle.js"></script>
+</head>
+<body>
+<div class="wapper full">
+	<div class="head-wapper">
+		<img class="center-logo" src="img/logo.png" />
+		<span class="center-title">智慧交通运行状态监测系统</span>
+	</div>
+	<div class="content">
+		<div class="left-wapper">
+			<div id="s_crowd_sort" class="height-crowd-sort light-border"></div>
+			<div id="s_crowd_state" class="height-crowd-state light-border"></div>
+		</div>
+		<div class="center-wapper light-border">
+			<div id="s_table_crowd" class="height-table-crowd"></div>
+			<div class="height-chart-trend">
+				<div class="chart-legend">
+					<ul><li>当天</li>
+					<li>上周同期</li></ul>
+				</div>
+				<div id="s_chart_trend" class="height-chart-line"></div>
+			</div>
+			<div class="height-crowd-heatmapout">
+				<div id="s_cread_heatmap" class="height-crowd-heatmap clearFloat"></div>
+				<div id="s_cread_road" class="height-crowd-road-list clearFloat">
+					<label>拥堵点</label>
+					<div id="congestionPoints"></div>
+				</div>
+			</div>
+		</div>
+		<div class="right-wapper">
+			<div id="s_a_area_index" class="height-contrast light-border"></div>
+			<div id="s_i_area_index" class="height-contrast light-border"></div>
+			<div id="s_i_road_index" class="height-contrast light-border"></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

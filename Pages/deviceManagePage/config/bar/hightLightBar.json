@@ -1,0 +1,16 @@
+{
+  "id":"s_dev_online",
+  "title" : {
+    "text": "设备在线率"
+  },
+  "xAxis":{
+    "data" : ["超限超载","可变情报板"]
+  },
+  "series":[
+    {
+      "name":"在线率",
+      "type":"bar",
+      "data":[1,2]
+    }
+  ]
+}
