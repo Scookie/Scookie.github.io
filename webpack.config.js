@@ -38,7 +38,8 @@ module.exports = {
 	},
 	plugins:[
 		new HtmlWebpackPlugin({
-			template:__dirname+"/app/index.tmpl.html"
+			template:__dirname+"/app/index.tmpl.html",
+			filename: '../index.html',
 		}),
 		new webpack.optimize.UglifyJsPlugin()
 	],
