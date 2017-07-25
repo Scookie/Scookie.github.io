@@ -41,7 +41,12 @@ module.exports = {
 			template:__dirname+"/app/index.tmpl.html",
 			filename: '../index.html',
 		}),
-		new webpack.optimize.UglifyJsPlugin()
+		new webpack.optimize.UglifyJsPlugin(),
+		new webpack.ProvidePlugin({
+			$:"jquery",
+			jQuery:'jquery',
+			"window.jQuery":"jquery",
+		})
 	],
 	devServer:{
 		contentBase:"./",
