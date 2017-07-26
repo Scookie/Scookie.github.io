@@ -32,8 +32,20 @@ module.exports = {
             },
 			{
 			    test: /\.css$/,
-			    loader:"style!css?module"
-			}
+			    loader:"style!css"
+			}, 
+			{
+	            test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+	            loader: 'url?limit=10000&minetype=application/font-woff'
+	        }, 
+	        {
+	            test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+	            loader: 'file'
+	        },
+	        {
+	            test: /\.(png|jpg)$/, 
+	            loader: 'url?limit=8192' // 内联的base64的图片地址，图片要小于8k，直接的url的地址则不解析
+	        }
 		]
 	},
 	plugins:[
