@@ -1,7 +1,5 @@
 import React,{Component} from "react";
 
-import "bootstrap";
-
 export default class Search extends Component{
   	render() {
 	    return (

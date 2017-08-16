@@ -3,7 +3,6 @@ import config from "../../json/config.json";
 // import styles from "./Login.css";
 
 import "./Login.css";
-import "bootstrap";
 
 class Login extends Component{
 	login() {
