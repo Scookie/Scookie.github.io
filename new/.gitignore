@@ -1,0 +1,10 @@
+node_modules/
+bower_components/
+dist/
+src/app/.idea/
+.DS_Store
+.idea/
+.env
+.vscode
+npm-error.log
+yarn-error.log
